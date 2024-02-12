@@ -1,0 +1,129 @@
+/*global*/
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+body{
+    font-family: 'Protest Riot';
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+h1{
+    color: white;
+}
+
+/*utilities*/
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20rem;
+}
+
+
+/*header*/
+.site-init{
+    background-color: #3a86ff;
+    height: 20rem;
+}
+.header-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+}
+.header-img img{
+    display: block;
+    width: 20rem;
+
+}
+.welcome-section p{
+    background-color: #93268A;
+    height: 20rem;
+}
+/*main*/
+.newpet-flex{
+    display: flex;
+}
+.new-pet{
+    background-color: #38B349;
+}
+.pet-info{
+    background-color: #07783F;
+}
+.btn-color{
+    background-color: #93268A;
+    color: #FBC22D;
+}
+
+/*welcome*/
+.welcome-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.welcome-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #38B349;
+    height: 20rem;
+}
+.welcome-img img{
+    display: block;
+    width: 20rem;
+    border-radius: 20px;
+}
+/*services*/
+
+/*footer*/
+.site-footer{
+    background-color: #FED08A;
+    height: 10rem;
+    color: white;
+}
+
+/*cards*/
+.registered-pets{
+    background-color: #774D29;
+    color: white;
+    padding: 2rem;
+}
+#pets{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1rem;
+    row-gap: 1rem;
+}
+.petCard{
+    background-color: #603813;
+    color: white;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.alert-error{
+    background-color: #ec8080;
+}
+.alert-success{
+    background-color: #588157;
+}
+.hidden{
+    display: none;
+}
+/*
+#3a86ff blue
+#93268A dark purple
+#FBC22D yellow
+#38B349 green
+#07783F dark green
+#344E41 forest green
+#774D29 light brown
+#603813 dark brown
+#FED08A Sand
+*/
