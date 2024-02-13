@@ -1,3 +1,4 @@
+let petID=0;
 //constructor
 function Pet(n,a,g,t,b,s,r){
     this.name=n;
@@ -7,6 +8,8 @@ function Pet(n,a,g,t,b,s,r){
     this.breed=b;
     this.service=s;
     this.restrictions=r;
+
+    this.id=petID++;
 }
 
 function getE(id){
@@ -90,6 +93,16 @@ function register(){
     }else{
         showNotifications("Please fill out all the required fields","alert-error");
     }
+}
+function deletePet(petID){
+    let deleteIndex;
+    for(let i=0;i<salon.pets.length;i++){
+        let pet = salon.pets[i];
+        deleteIndex=i;
+        break;
+    }
+    getE(id).remove();//remove for the html 
+    salon.pets.splice(deleteIndex,1);//remove the pet from the array
 }
 
 function init(){
