@@ -17,6 +17,13 @@ a{
 h1{
     color: white;
 }
+option{
+    color: black;
+}
+input{
+    color: black;
+}
+
 
 /*utilities*/
 .flex-container{
@@ -43,9 +50,10 @@ h1{
     width: 20rem;
 
 }
-.welcome-section p{
+.welcome-section h3{
     background-color: #93268A;
     height: 20rem;
+    align-content: center;
 }
 /*main*/
 .newpet-flex{
@@ -80,7 +88,14 @@ h1{
     border-radius: 20px;
 }
 /*services*/
-
+.service-form{
+    background-color: #38B349;
+    color: black;
+}
+.services{
+    background-color: #07783F;
+    color: black;
+}
 /*footer*/
 .site-footer{
     background-color: #FED08A;

@@ -22,7 +22,7 @@ let inputGender= getE("txtGender");
 let inputTypeOfAnimal= getE("txtTypeOfAnimal");
 let inputBreed= getE("txtBreed");
 let inputService= getE("txtService");
-let inputRestrictions= getE("txtRestrictions")
+let inputRestrictions= getE("txtRestrictions");
 
 function isValid(aPet){
     let validation=true;
@@ -101,7 +101,7 @@ function deletePet(petID){
         deleteIndex=i;
         break;
     }
-    getE(id).remove();//remove for the html 
+    getE(petID).remove();//remove for the html 
     salon.pets.splice(deleteIndex,1);//remove the pet from the array
 }
 
