@@ -32,6 +32,20 @@ input{
     align-items: center;
     height: 20rem;
 }
+.flex-container-welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.flex-container-services{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+}
 
 
 /*header*/
@@ -50,11 +64,7 @@ input{
     width: 20rem;
 
 }
-.welcome-section h3{
-    background-color: #93268A;
-    height: 20rem;
-    align-content: center;
-}
+
 /*main*/
 .newpet-flex{
     display: flex;
@@ -87,6 +97,14 @@ input{
     width: 20rem;
     border-radius: 20px;
 }
+.welcome-text{
+    display: flex;
+    
+    background-color: #93268A;
+    color: #FBC22D;
+    height: 20rem;
+    justify-content: center;
+}
 /*services*/
 .service-form{
     background-color: #38B349;
@@ -95,6 +113,10 @@ input{
 .services{
     background-color: #07783F;
     color: black;
+}
+.services-section{
+    background-color: #603813;
+    height: 20rem;
 }
 /*footer*/
 .site-footer{

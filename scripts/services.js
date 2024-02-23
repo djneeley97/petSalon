@@ -19,21 +19,21 @@ function Service(description,price){
 
 function addService(){
     let inputService = $("#txtService").val();//similar to value
-    let inputPrice = $("txtPrice").val();
-
+    let inputPrice = $("#txtPrice").val();
     let newService = new Service(inputService,inputPrice);
     services.push(newService);
-    saveArray(newService);//from the LS
-    displayItems(services);
+    saveItems(newService,"services");//from the LS
+    displayItems();//display the services on the html
 }
 
-function displayItems(items){
+function displayItems(){
+    let items=readItems("services");//getting the items from the LS
     let htmlList=$("#services");
     htmlList.html("");
     let li;
     for(let i=0;i<items.length;i++){
         let item=items[i];
-    li=`<li>${item.description}</li>}`;
+    li=`<li>${item.description} - ${item.price}</li>`;
     htmlList.append(li);
     }
 }

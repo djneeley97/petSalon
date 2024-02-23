@@ -13,4 +13,3 @@ function displayFooterInfo(){
     <p> Welcome to the ${salon.name} is located in ${salon.address.street} ${salon.address.number} ${salon.address.zip}</p>`;
 }
 
-displayFooterInfo();
