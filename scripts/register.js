@@ -28,12 +28,12 @@ function isValid(aPet){
     let validation=true;
     //clear the style
     //document.querySelectorAll("inputs");
-    getE("txtName").classList.remove("alert-error");
-    getE("txtGender").classList.add("alert-error");
-    getE("txtTypeOfAnimal").classList.add("alert-error");
-    getE("txtBreed").classList.add("alert-error");
-    getE("txtService").classList.add("alert-error");
-    getE("txtRestrictions").classList.add("alert-error");
+    getE("txtName").classList.remove("alert-success");
+    getE("txtGender").classList.add("alert-success");
+    getE("txtTypeOfAnimal").classList.add("alert-success");
+    getE("txtBreed").classList.add("alert-success");
+    getE("txtService").classList.add("alert-success");
+    getE("txtRestrictions").classList.add("alert-success");
 
     if(aPet.name==""){
         //the pet is not valid

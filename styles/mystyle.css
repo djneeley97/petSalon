@@ -79,6 +79,9 @@ input{
     background-color: #93268A;
     color: #FBC22D;
 }
+.btn-del{
+    color: black;
+}
 
 /*welcome*/
 .welcome-section{

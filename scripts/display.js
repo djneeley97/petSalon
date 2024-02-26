@@ -22,7 +22,7 @@ function displayPetCards(){
                 <p>Breed: ${pet.breed}</p>
                 <p>Service: ${pet.service}</p>
                 <p>Restrictions: ${pet.restrictions}</p>
-                <button onclick="deletePet(${pet.id})">Delete</button>
+                <button class="btn btn-color me-md-2" onclick="deletePet(${pet.id})">Delete</button>
             </div>
         `;
     }
